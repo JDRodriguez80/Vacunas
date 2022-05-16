@@ -83,7 +83,7 @@ namespace Vacunacion
         {
             Console.WriteLine("Inyectado con Cansino ");
             Console.WriteLine("En esta vacuna la forma en la que actua en su cuerpo serala siguiente:");
-            Console.WriteLine("e");
+            Console.WriteLine("Esta vacuna es de una sola dosis por lo que no se requiere una segunda cita de vacunacion");
             
         }
     }

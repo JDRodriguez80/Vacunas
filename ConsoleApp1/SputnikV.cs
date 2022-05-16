@@ -81,8 +81,12 @@ namespace Vacunacion
         }
         public override void inyectar()
         {
-            Console.WriteLine("Inyectado con Sputnik v ");
-
+            Console.WriteLine("Ha sido inyectado con Sputnik v ");
+            Console.WriteLine("El periodo minimo para la aplicaciond de una segunda dosis es de 21 dias");
+            
+            var datetime = DateTime.Today.AddDays(timeSpan);
+            var date = datetime.ToString("dd/MM/yyyy");
+            Console.WriteLine("Por lo que la fecha de su segunda dosis el el día:{0}",date );
             
         }
     }
